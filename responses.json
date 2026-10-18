@@ -1,0 +1,50 @@
+[
+    {
+        "question": "What is an operating system?",
+        "response": "An operating system (OS) is system software that manages a computer's hardware and software resources. It acts as an intermediary between the user, applications, and the physical hardware, handling essential tasks like memory management, processor scheduling, and file storage. Common examples include Microsoft Windows, macOS, Linux, and Android."
+    },
+    {
+        "question": "What is the OSI model?",
+        "response": "The Open Systems Interconnection (OSI) model is a conceptual framework that standardizes the functions of a telecommunication or computing network into seven distinct layers. These layers range from the physical transmission of signals (Layer 1) up to the software applications that interact with the end-user (Layer 7). It serves as a universal reference to help engineers understand network communication, design interoperable protocols, and troubleshoot connectivity issues."
+    },
+    {
+        "question": "Who was Alan Turing?",
+        "response": "Alan Turing was an English mathematician, logician, and cryptanalyst widely regarded as the father of modern computer science and artificial intelligence. During World War II, he played a pivotal role at Bletchley Park by breaking the German Enigma code, an achievement that saved millions of lives and helped the Allies win the war. His pioneering concepts, such as the Turing machine and the Turing test, laid the foundational groundwork for contemporary computing."
+    },
+    {
+        "question": "How do computer networks work?",
+        "response": "Computer networks connect devices using physical cables or wireless signals to share data and resources. When information is sent, it is broken down into small units called packets and guided across the network by hardware like routers and switches. Standardized communication rules, known as protocols (such as TCP/IP), ensure these packets reach the correct destination and are properly reassembled."
+    },
+    {
+        "question": "What is the Linux Kernel?",
+        "response": "The Linux kernel is the core component of the Linux operating system, acting as the fundamental bridge between a computer's hardware and its software applications. It is responsible for managing vital system resources, including CPU allocation, system memory, and peripheral device communications. As a free and open-source project, it serves as the underlying foundation for everything from Android smartphones to enterprise cloud servers."
+    },
+    {
+        "question": "What is a File system?",
+        "response": "A file system is a method and structure that an operating system uses to organize, store, and retrieve data on a storage drive. It separates raw data into individual files and directories, giving each an identifiable name and location. Additionally, it manages essential metadata—such as file sizes, permissions, and creation dates—to ensure efficient and secure access."
+    },
+    {
+        "question": "What is Docker?",
+        "response": "Docker is an open-source platform that allows developers to build, deploy, and run applications inside lightweight, isolated environments called containers. By packaging an application's code together with all its necessary dependencies and libraries, Docker ensures that software runs consistently across any computing environment. This approach streamlines development and deployment by eliminating the common \"it works on my machine\" problem."
+    },
+    {
+        "question": "What is a GPU and how is it different from a CPU?",
+        "response": "A Graphics Processing Unit (GPU) is a specialized electronic circuit designed to rapidly process and manipulate large blocks of visual and mathematical data simultaneously. While a CPU (Central Processing Unit) uses a few powerful cores to handle diverse, complex tasks sequentially, a GPU utilizes thousands of smaller, efficient cores optimized for parallel processing. This makes the CPU the general-purpose \"brain\" of a computer, whereas the GPU excels at repetitive, data-heavy workloads like rendering graphics and running AI models."
+    },
+    {
+        "question": "What are the layers of the OSI model?",
+        "response": "The OSI (Open Systems Interconnection) model consists of seven conceptual layers that standardize telecommunication and computing network functions. From bottom to top, these layers are the Physical, Data Link, Network, Transport, Session, Presentation, and Application layers. Each layer performs specific tasks to pass data seamlessly from physical transmission hardware up to end-user software applications."
+    },
+    {
+        "question": "What is BeeGFS?",
+        "response": "BeeGFS is a high-performance, hardware-independent parallel cluster file system designed for demanding workloads such as high-performance computing (HPC) and AI. It increases I/O performance by striping file data across multiple servers, aggregating both throughput and storage capacity. Known for its ease of deployment and management, it scales seamlessly from small clusters to enterprise supercomputers."
+    },
+    {
+        "question": "What are the various components that comprise a computer?",
+        "response": "A computer consists of core internal hardware, including the central processing unit (CPU), motherboard, memory (RAM), storage drive (SSD/HDD), and a power supply unit. It also relies on input and output peripherals, such as a monitor, keyboard, and mouse, to allow user interaction. Driven by system software and an operating system, these interconnected components work together to process, store, and execute data."
+    },
+    {
+        "question": "What is Federated Learning?",
+        "response": "**Federated Learning** is a decentralized machine learning technique that trains an algorithm across multiple edge devices or servers holding local data. Instead of sending raw, sensitive data to a central server, devices train the model locally and only share model updates (such as weights or gradients) for aggregation. This approach enables collaborative AI training while preserving data privacy and reducing security risks."
+    }
+]
